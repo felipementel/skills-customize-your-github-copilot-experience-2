@@ -7,7 +7,7 @@ Practice fundamental Python programming skills including user input, string form
 
 ## 📝 Tasks
 
-### 🛠️ User Input and String Formatting
+### 🛠️	User Input and String Formatting
 
 #### Description
 Write a function called `welcome_message()` that interacts with the user and returns a formatted welcome message.
@@ -21,7 +21,7 @@ Completed program should:
 - Example output:
   `Hello, Alice! You are 25 years old and your favorite color is blue.`
 
-### 🛠️ Basic Arithmetic
+### 🛠️	Basic Arithmetic
 
 #### Description
 Write a function called `add_two_numbers()` that prompts the user for two numbers and prints their sum.
@@ -32,11 +32,13 @@ Completed program should:
 - Ask the user to enter two numbers.
 - Add the numbers together.
 - Print the result. Example:
+  ```
   Enter the first number: 3
   Enter the second number: 7
   10
+  ```
 
-### 🛠️ Conditional Statements
+### 🛠️	Conditional Statements
 
 #### Description
 Write a function called `is_even()` that checks if a number is even.
@@ -51,4 +53,3 @@ Completed program should:
   print(is_even(4))  # True
   print(is_even(5))  # False
   ```
-

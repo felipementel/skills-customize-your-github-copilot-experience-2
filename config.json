@@ -58,6 +58,20 @@
           "type": "csv"
         }
       ]
+    },
+    {
+      "id": "rest-api-fastapi",
+      "title": "Building REST APIs with FastAPI",
+      "description": "Build a REST API using FastAPI: define routes, validate input with Pydantic, and return JSON responses.",
+      "path": "assignments/rest-api-fastapi",
+      "dueDate": "2026-05-16",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }

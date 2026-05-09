@@ -1,19 +1,52 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Games in Python
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build the classic Hangman word-guessing game using Python strings, loops, and user input. You will practice string manipulation, conditionals, random selection, and game state management.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️	Word Selection and Game Setup
 
-## ✅ Must Have's
+#### Description
+Initialize the game by randomly selecting a secret word and setting up the variables needed to track game state.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Randomly select a word from the predefined word list using the `random` module.
+- Initialize a list to track correctly guessed letters.
+- Initialize a counter for incorrect guesses.
+- Set a maximum number of allowed incorrect guesses (e.g., 6).
+
+### 🛠️	Main Game Loop
+
+#### Description
+Implement the core game loop where the player repeatedly guesses letters until they win or run out of attempts.
+
+#### Requirements
+Completed program should:
+
+- Display the current progress of the word using `_` for unguessed letters (e.g., `_ _ t h o n`).
+- Prompt the player to enter a single letter guess.
+- Check if the guessed letter is in the secret word and update the game state accordingly.
+- Track and display the number of incorrect guesses remaining.
+- Continue looping until the word is fully guessed or the player exceeds the maximum incorrect guesses.
+
+### 🛠️	Win and Lose Conditions
+
+#### Description
+Detect the end of the game and display the appropriate result message to the player.
+
+#### Requirements
+Completed program should:
+
+- Display a congratulations message when the player correctly guesses all letters. Example:
+  ```
+  Congratulations! You guessed the word: python
+  ```
+- Display a game over message when the player runs out of attempts. Example:
+  ```
+  Game over! The word was: python
+  ```

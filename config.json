@@ -72,6 +72,30 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "working-with-files",
+      "title": "Working with Files in Python",
+      "description": "Read, write, and process text and CSV files using Python built-in file I/O.",
+      "path": "assignments/working-with-files",
+      "dueDate": "2026-05-16",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        },
+        {
+          "name": "Sample Students CSV",
+          "file": "students.csv",
+          "type": "csv"
+        },
+        {
+          "name": "Notes Text File",
+          "file": "notes.txt",
+          "type": "txt"
+        }
+      ]
     }
   ]
 }
